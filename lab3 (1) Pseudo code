@@ -1,0 +1,24 @@
+Write pseudo code that will count all the odd numbers up 
+to a user defined stopping point then it computes the average.
+
+
+SET counter to 1
+SET odd_sum to 0
+SET odd_counter to 0
+Declare OddAverate
+Define stoping_point
+FOR counter = 1 to stoping_point
+	IF counter mod 2 != 0
+		THEN
+			PRINT 
+				odd_sum
+			INCREMENT odd_counter by 1
+ENDFOR
+COMPUTE 
+	OddAverate = odd_sum / odd_counter
+PRINT
+	odd_counter
+PRINT
+	oddAverage
+	
+	
